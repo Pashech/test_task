@@ -1,0 +1,1 @@
+ALTER TABLE teams ADD players VARCHAR(50);

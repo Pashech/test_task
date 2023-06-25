@@ -1,0 +1,10 @@
+CREATE TABLE players (
+                         player_id INT PRIMARY KEY,
+                         firstName VARCHAR(50),
+                         lastName VARCHAR(50),
+                         citizenship VARCHAR(50),
+                         birthPlace VARCHAR(50),
+                         birth_Date DATE,
+                         team_id INT,
+                         FOREIGN KEY (team_id) REFERENCES teams(team_id)
+);
